@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtld"
+version = "0.1.0"
+description = "Meta Learning Design - simulation + paraview-style integration"
+authors = [{name="정구영"}]
+dependencies = [
+    "numpy>=1.21",
+    "torch>=1.12",
+    "pyyaml",
+    "tqdm"
+]
